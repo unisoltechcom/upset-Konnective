@@ -1,0 +1,21 @@
+.elementor-button.elementor-size-md.opt-in-submit {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 35px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2f7f0d;
+    border: none;
+    border-radius: 4px;
+    font-family: "PT Sans", sans-serif;
+}
+
+.elementor-field.elementor-size-sm.elementor-field-textual.opt-in-email {
+    border-color: #ccc;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-family: "PT Sans", sans-serif;
+    color: #666;
+}

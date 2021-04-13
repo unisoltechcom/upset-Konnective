@@ -1,0 +1,180 @@
+-----------------------------------------------------------------
+Data Sent:
+array (
+  'userId' => '732256138762e407a252d9177d965d8d',
+  'email' => 'testfree2ndamendment@test.com',
+  'regDate' => '2019-10-24 13:11:38',
+  'tags' => '8320',
+  'lists' => 
+  array (
+    0 => '0f59c186b1de4cf7b215c7a80a9dbbfa',
+  ),
+  'campaign' => '8320',
+  'sourceUrl' => 'https://test.free2ndamendment.com',
+  'ipAddress' => '174.93.85.191',
+)
+
+Response:
+Date: 	 October 24, 2019, 5:11 pm
+Status: 	200
+Message: 	OK
+Body: 	{
+    "message": "contact create / updated",
+    "name": "OK",
+    "status": 200
+}
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Data Sent:
+array (
+  'userId' => '732256138762e407a252d9177d965d8d',
+  'source' => '',
+  'email' => 'testfree2ndamendment@test.com',
+  'firstname' => 'Afzal',
+  'lastname' => 'Sharif',
+  'phone' => '5464646',
+  'addressLine1' => 'torontods',
+  'city' => 'torontod',
+  'state' => 'toronto',
+  'zip' => '1300',
+  'country' => 'CA',
+  'lists' => 
+  array (
+    0 => '7b630bb495a94562833a1af5a6fc1157',
+  ),
+  'tags' => 
+  array (
+    0 => '8320 - 2nd Amendment',
+  ),
+  'content' => '2nd Amendment',
+)
+
+Response:
+Date: 	 October 24, 2019, 5:12 pm
+Status: 	200
+Message: 	OK
+Body: 	{
+    "message": "contact create / updated",
+    "name": "OK",
+    "status": 200
+}
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Data Sent:
+array (
+  'userId' => '732256138762e407a252d9177d965d8d',
+  'email' => 'testfree2ndamendment@test.com',
+  'membership' => 'active',
+  'lists' => 
+  array (
+    0 => '0c38cb1ada7f4d809b3e2dda6f2c05f6',
+  ),
+  'tags' => 
+  array (
+    0 => 'USA',
+  ),
+)
+
+Response:
+Date: 	 October 24, 2019, 5:12 pm
+Status: 	200
+Message: 	OK
+Body: 	{
+    "message": "contact create / updated",
+    "name": "OK",
+    "status": 200
+}
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Data Sent:
+array (
+  'userId' => '732256138762e407a252d9177d965d8d',
+  'email' => 'free2ndamendmentest@test.com',
+  'regDate' => '2019-10-24 13:30:27',
+  'tags' => '8320',
+  'lists' => 
+  array (
+    0 => '0f59c186b1de4cf7b215c7a80a9dbbfa',
+  ),
+  'campaign' => '8320',
+  'sourceUrl' => 'https://test.free2ndamendment.com',
+  'ipAddress' => '174.93.85.191',
+)
+
+Response:
+Date: 	 October 24, 2019, 5:30 pm
+Status: 	200
+Message: 	OK
+Body: 	{
+    "message": "contact create / updated",
+    "name": "OK",
+    "status": 200
+}
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Data Sent:
+array (
+  'userId' => '732256138762e407a252d9177d965d8d',
+  'source' => '',
+  'email' => 'free2ndamendmentest@test.com',
+  'firstname' => 'Afzal',
+  'lastname' => 'Sharif',
+  'phone' => '5464646',
+  'addressLine1' => 'torontods',
+  'city' => 'torontod',
+  'state' => 'toronto',
+  'zip' => '1300',
+  'country' => 'CA',
+  'lists' => 
+  array (
+    0 => '7b630bb495a94562833a1af5a6fc1157',
+  ),
+  'tags' => 
+  array (
+    0 => '8320 - 2nd Amendment',
+  ),
+  'content' => '2nd Amendment',
+)
+
+Response:
+Date: 	 October 24, 2019, 5:30 pm
+Status: 	200
+Message: 	OK
+Body: 	{
+    "message": "contact create / updated",
+    "name": "OK",
+    "status": 200
+}
+
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Data Sent:
+array (
+  'userId' => '732256138762e407a252d9177d965d8d',
+  'email' => 'free2ndamendmentest@test.com',
+  'membership' => 'active',
+  'lists' => 
+  array (
+    0 => '0c38cb1ada7f4d809b3e2dda6f2c05f6',
+  ),
+  'tags' => 
+  array (
+    0 => 'USA',
+  ),
+)
+
+Response:
+Date: 	 October 24, 2019, 5:30 pm
+Status: 	200
+Message: 	OK
+Body: 	{
+    "message": "contact create / updated",
+    "name": "OK",
+    "status": 200
+}
+
+-----------------------------------------------------------------

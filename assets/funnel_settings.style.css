@@ -1,0 +1,245 @@
+.st-funnel-wrap .funnel-data{
+    margin-top: 20px;
+}
+.st-funnel-wrap .funnel-data .form-inner-wrap{
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.st-funnel-wrap .tab-headers{    
+    background-color: #f7f7f7;
+}
+.st-funnel-wrap .tab-headers .header{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.st-funnel-wrap .tab-headers .header.active{
+    background-color: #fff;
+}
+.st-funnel-wrap .tab-headers .header:not(.active){
+    color: #87a6bc;
+}
+
+.st-funnel-wrap .tab-headers .header label{
+    padding: 20px 10px;
+    font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+.st-funnel-wrap .tab-headers .header.active label .dashicons{
+    color: #0073aa;
+}
+.st-funnel-wrap .tab-headers .header label .dashicons{
+    margin-right: 10px;
+}
+.st-funnel-wrap .tab-headers .header label input{
+    display: none;
+}
+.st-funnel-wrap header.tab-headers{
+    width: 30%;    
+}
+.st-funnel-wrap section.data-sec{
+    width: 70%;
+    padding: 20px 30px;
+    color: #4f748e;
+}
+.st-funnel-wrap section.data-sec h2,
+.st-funnel-wrap section.data-sec h3{
+    color: #465d6d;
+}
+.st-funnel-wrap section.data-sec h4{
+    font-weight: bold;
+    color: #6f6a6a;
+    font-size: 15px;
+    border-bottom: 1px solid #f2ebeb;
+    line-height: 38px;
+    
+    
+}
+.st-funnel-wrap section.data-sec:not(.active){
+    display: none;
+}
+.st-funnel-wrap section.data-sec table{
+    width: 80%;
+    margin-top: 50px;
+}
+.st-funnel-wrap section.data-sec tr th{
+    max-width: 200px;
+}
+.st-funnel-wrap section.data-sec tr th,
+.st-funnel-wrap section.data-sec tr td{
+    padding-bottom: 10px;
+}
+.st-funnel-wrap section.data-sec tr th.api-log-th{
+    vertical-align: top;    
+} 
+.st-funnel-wrap section.data-sec tr td input[type="text"]{
+    min-width: 100%;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    line-height: 26px;
+    box-sizing: border-box;
+}
+.st-funnel-wrap section.data-sec tr td input[type="text"]:focus{
+    box-shadow: 0 0 3px #0073aa;
+}
+.st-funnel-wrap section.data-sec tr td label.d-block{
+    display: block !important;
+}
+.st-funnel-wrap section.data-sec tr td label.d-block + label.d-block{
+    margin-top: 7px;
+}
+.st-funnel-wrap .draggable-list{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.st-funnel-wrap .draggable-list.has-items{
+    margin-top: 10px;
+    border-bottom: 1px solid #f2ebeb;
+    padding: 15px 10px 15px 0;
+}
+.st-funnel-wrap .draggable-list .drag-item{
+    display: block;
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    color: #2b2b2b;
+}
+.st-funnel-wrap .draggable-list .drag-item.upsell .dashicons:before{
+    content: '\f142';
+}
+.st-funnel-wrap .draggable-list .drag-item.downsell .dashicons:before{
+    content: '\f140';
+}
+.st-funnel-wrap .draggable-list .drag-item .select-wrap{
+    display: inline-block;
+    position: relative;
+}
+.st-funnel-wrap .draggable-list .drag-item .select-wrap select{
+    line-height: 26px;
+    border-radius: 4px;    
+}
+.st-funnel-wrap .draggable-list .drag-item .disabled select{
+    color: initial;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+.st-funnel-wrap .draggable-list .drag-item .disabled:after{
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 15px;
+    top: 0;
+    bottom: 0;
+    background-color: #f7f7f7;
+}
+.st-funnel-wrap .draggable-list .drag-item .disabled:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    background-color: transparent;
+}
+.st-funnel-wrap .draggable-list .drag-item:hover .action-list{
+    display: block;
+}
+.st-funnel-wrap .draggable-list .drag-item .action-list{
+    float: right;    
+    display: none;
+    margin-top: 5px;
+}
+.st-funnel-wrap .draggable-list .drag-item .action-list li{
+    display: inline-block;
+    padding: 0 10px; 
+    color: #0073aa;
+    font-size: 11px;
+    cursor: pointer;
+}
+.st-funnel-wrap .section.data-sec table.upsell-table{
+    margin-top: 15px;    
+    width: 100%;
+}
+.st-funnel-wrap .section.data-sec table.upsell-table td, 
+.st-funnel-wrap .section.data-sec table.upsell-table th{
+    vertical-align: middle;
+}
+.st-funnel-wrap table.upsell-table td #new-upsell{
+    margin-left: 10px;
+    height: 31px;
+    max-width: 80px;
+}
+.st-funnel-wrap table.upsell-table td .funnel_step-type{
+    width: 100%;
+    line-height: 26px;
+    border-radius: 4px;
+    height: 34px;
+}
+.st-funnel-wrap .draggable-list .drag-item .action-list li:hover{
+    color: #00a0d2;
+}
+.st-funnel-wrap .draggable-list .drag-item .action-list li + li{
+    border-left: 1px solid #e5e5e5;
+}
+.st-funnel-wrap .draggable-list .drag-item + .drag-item{
+    margin-top: 10px;
+}
+.st-funnel-wrap .draggable-list .drag-item .dashicons{
+    color: #0073aa;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #e5e5e5;
+    cursor: move;
+    font-size: 17px;
+    margin-top: 6px;
+}
+.st-funnel-wrap .log-display{
+    margin-top: 20px;
+}
+.st-funnel-wrap .log-display .log-location{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.st-funnel-wrap .log-display .inner-wrap{
+    min-height: 60vh;
+    height: calc(100vh - 295px);
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.st-funnel-wrap .log-display .inner-wrap .log-content{
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.st-funnel-wrap .log-display .inner-wrap .log-content .preserve-style{
+    white-space: pre-line;
+    height: auto;
+    background-color: #fff;
+}
+.st-funnel-wrap .tab{
+    display: none;
+}
+.st-funnel-wrap .tab.active{
+    display: block;
+}
+

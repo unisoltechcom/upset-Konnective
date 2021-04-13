@@ -1,0 +1,92 @@
+.st-confirmation-wrap  h1{
+    font-family: sans-serif, "Open Sans";
+    font-size: 24px;
+    margin-top: 45px;
+}
+.st-confirmation-wrap  h3{
+    font-family: sans-serif, "Open Sans";
+}
+.st-confirmation-wrap .header-highlight{
+    font-size: 18px;
+    width: 100%;
+    margin: 0 auto;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+    text-align: left;
+    color: rgba(47,47,47,.819608);
+    text-align: center;
+}
+.st-confirmation-wrap .order-summary{
+    font-size: 14px;
+    font-family: sans-serif, "Open Sans";
+    font-weight: 700;
+}
+.st-confirmation-wrap .order-summary .row + .row{
+    margin-top: 25px;
+}
+.st-confirmation-wrap .order-summary .product-details{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+}
+.st-confirmation-wrap .order-summary .order-total{
+    padding-top: 15px;
+}
+.st-confirmation-wrap .shipping-details h3{
+    font-weight: bold;
+    padding: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: 16px;
+}
+.st-confirmation-wrap .shipping-details{
+    font-size: 14px;
+    font-family: sans-serif, "Open Sans";
+}
+.st-confirmation-wrap .thanks-notice{
+    font-size: 20px;
+}
+.st-confirmation-wrap .thanks-notice a{
+    color: #1e73be;
+}
+.st-confirmation-wrap  .no-question-guarantee{
+    margin-top: 10px;
+}
+.st-confirmation-wrap  .no-question-guarantee h3{
+    font-size: 18px; 
+    width: 97%; 
+    font-weight: 700; 
+    text-align: left; 
+    color: rgba(47,47,47,.819608);
+    background-color: rgba(255,255,255,.2); 
+    padding: 0px 0px; margin: 0;
+}
+.st-confirmation-wrap  .no-question-guarantee p{
+    font-size: 14px;
+    font-family: sans-serif, "Open Sans"; 
+}
+.st-confirmation-wrap .any-questions{
+    margin-bottom: 60px;
+}
+.st-confirmation-wrap .any-questions h4{
+    font-size: 18px;
+    font-family: sans-serif, "Open Sans"; 
+    text-align: center;
+    margin: 0;
+}
+.st-confirmation-wrap .any-questions .btn{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 13px 35px 13px 35px;
+    color: #FFF;
+    text-align: center;
+    background-color: rgb(0, 113, 169);
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
